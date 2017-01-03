@@ -1,0 +1,57 @@
+# Site wide configuration
+
+title: Jedi in Progress
+locale: en_US
+description: One woman's long journey to iOS Jedi Mastery
+logo: site-logo.png
+search: true
+url: http://Jul3ia.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Jul3ia Astatkie
+  avatar: bio-photo.jpg
+  email: jul3ia@hotmail.com
+  disqus-shortname:
+  twitter: #Jul3iaRichard
+  facebook: #Jul3ia Richard
+  github: #Jul3ia
+  stackexchange: #http://stackoverflow.com/users/3847175/jul3ia
+  linkedin: #Jul3ia Astatkie
+  instagram: #Jul3ia
+  tumblr: #Jul3ia
+  pinterest: #Jul3ia
+  google:
+    plus: #Jul3ia
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
