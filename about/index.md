@@ -9,18 +9,11 @@ image:
   creditlink: https://www.instagram.com/jul3ia/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Jul3ia is an iOS developer in Seattle, Washington who started her journey in code as an animator, [musician](https://soundcloud.com/jul3ia), and [cartoonist](https://www.facebook.com/MyrbieAndDax/). In the decade prior to working in iOS development, she had a career in television, where was most known for her two Emmy-Award winning videos, [**OMG LOL**](https://www.youtube.com/watch?v=5owbC2kB4YI&t=4s) and [**Reality TV**](https://www.youtube.com/watch?v=46K142AW4IQ), as well as other [award-winning videos](https://www.youtube.com/playlist?list=PLEKiKsqZgKxJNvaSn8SulSYRQgRiqFRc3). She began her journey with code in 2011 while living on the garden isle of Kaua'i, Hawai'i, thanks to a genuine interest in making kick ass software, combined with the modern wonder of _the internet_. She has been a total code addict ever since.
 
-## So Simple Theme is all about:
+## Some interesting facts about Jul3ia:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+* The 3 is silent, but also legal. She was named Julia, after John Lennon’s mother, but legally changed it at 18 after a long-standing joke she had started in her early teens. In the following years, she has thoroughly uncovered the meaning of being a true *edge case* in life. Plus sides include being the easiest person on Earth to Google. Down sides include suffering mercilessly at the DMV.
+* Though she spends most of her time in Xcode, she enjoys tinkering in Unreal whenever possible
+* She's a proud Cape Cod native
+* She enjoys pizza. A lot.
