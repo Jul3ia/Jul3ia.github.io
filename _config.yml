@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Jedi in Progress
+title: Jedi In Progress
 locale: en_US
-description: One coder's long journey to iOS Jedi Mastery
+description: One coder's journey to iOS Jedi mastery
 logo: site-logo.png
 search: true
-url: http://Jul3ia.github.io
+url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -36,18 +36,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Jul3ia Astatkie
+  name: Your Name
   avatar: bio-photo.jpg
-  email: jul3ia@hotmail.com
+  email: you@email.com
   disqus-shortname:
   twitter: #Jul3iaRichard
-  facebook: #Jul3ia Richard
-  github: #Jul3ia
+  facebook: #Jul3ia
+  github: #jul3ia
   stackexchange: #http://stackoverflow.com/users/3847175/jul3ia
-  linkedin: #Jul3ia Astatkie
-  instagram: #Jul3ia
-  tumblr: #Jul3ia
-  pinterest: #Jul3ia
+  linkedin: #jul3ia-astatkie
+  instagram: #jul3ia
   google:
     plus: #Jul3ia
     analytics:
