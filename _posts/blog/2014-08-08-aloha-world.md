@@ -45,12 +45,12 @@ Apple helps you out by supplying your first step right in the body of the runtim
 
 <figure>
 	<a href="https://www.flickr.com/photos/146724089@N04/32137434536/in/dateposted-public/"><img src="https://c1.staticflickr.com/1/637/32137434536_cb689f85e8_b.jpg" alt="image"></a>
-	<figcaption>In the breakpoint panel in Xcode, add a new symbolic breakpoint.</a>.</figcaption>
+	<figcaption>In the breakpoint panel in Xcode, add a new symbolic breakpoint.</figcaption>
 </figure>
 
 <figure>
 	<a href="https://www.flickr.com/photos/146724089@N04/32137434396/in/dateposted-public/"><img src="https://c5.staticflickr.com/1/631/32137434396_02e8bb8529_b.jpg" alt="image"></a>
-	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</a>.</figcaption>
+	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</figcaption>
 </figure>
 
 # 1.	When you hit the breakpoint, trace the autolayout stack
