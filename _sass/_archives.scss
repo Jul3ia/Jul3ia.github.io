@@ -30,6 +30,15 @@
     float: right;
   }
 
+  .subtitle {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 40px auto 15px auto;
+    text-align: center;
+  }
+
   .entry-date {
     @include font-size(14,no);
     text-transform: uppercase;
