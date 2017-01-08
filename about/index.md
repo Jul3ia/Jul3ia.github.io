@@ -4,7 +4,7 @@ title: About Jul3ia
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2017-01-07T19:44:38.564948-04:00
 image:
-  feature: oregon-coast.jpg
+  feature: eureka.jpg
   credit: Jul3ia Richard
   creditlink: https://www.instagram.com/jul3ia/
 ---
