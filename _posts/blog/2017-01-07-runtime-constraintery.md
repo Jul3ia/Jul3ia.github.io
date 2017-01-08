@@ -3,7 +3,7 @@ layout: post
 author: jul3ia
 comments: true
 share: true
-title: "Become a Runtime Constraint Issue Debugging Jedi"
+title: "Become a Runtime Autolayout Debugging Jedi"
 categories: blog
 excerpt:
 tags: [autolayout, interface builder, xcode, IBLayoutConstraints, defenestration, objective-c, swift]
@@ -11,7 +11,7 @@ image:
   feature:
 date: 2017-01-07T18:00:00-04:00
 ---
-> Or how to keep from throwing yourself out a window over Autolayout issues with just a few easy Xcode debugger console commands
+> Or how to keep from throwing yourself out a window over runtime constraint issues with just a few easy Xcode debugger console commands
 
 Autolayout issues can be a pain. We’ve all seen those familiar error messages at runtime in our Xcode console, but hesitate to change anything in our storyboards or nibs, because _seriously_, who wants to open that can of worms? Well, here are a few simple tricks that might ease your reluctance to open those dreaded files, and hopefully also save you from digging endlessly through the IBHaystack to find the offending element.
 
@@ -52,7 +52,7 @@ Apple helps you out by supplying your first step right in the body of the runtim
 
 <figure>
 	<a href="https://www.flickr.com/photos/146724089@N04/32137434396/in/dateposted-public/"><img src="https://c5.staticflickr.com/1/631/32137434396_02e8bb8529_b.jpg" alt="image"></a>
-	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</figcaption>
+	<figcaption>Assign the symbol as UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</figcaption>
 </figure>
 
 # 2.	When you hit the breakpoint, trace the autolayout stack
@@ -61,7 +61,7 @@ Paste the following command into your Xcode console:
 
 `expr -l objc++ -O -- [[UIWindow keyWindow] _autolayoutTrace]`
 
-This will give you a full hierarchal printout of _all_ autolayout objects that are currently on screen. Inspect these results. Look for keywords like “AMBIGUOUS LAYOUT”, but bear in mind that this won’t _necessarily_ point you directly to the element in question. However, it will most likely help you find it. You might also want to take a look at your view hierarchy, as you’re your issue may be happening on a view that is hiding out somewhere in the background, unbeknownst to frustrated programmers. You can print your view hierarchy with _this_ command:
+This will give you a full hierarchal printout of _all_ autolayout objects that are currently on screen. Inspect these results. Look for keywords like “AMBIGUOUS LAYOUT”, but bear in mind that this won’t _necessarily_ point you directly to the element in question. However, it will most likely help you find it. You might also want to take a look at your view hierarchy, as your issue may be happening on a view that is hiding somewhere in the background, unbeknownst to frustrated programmers. You can print your view hierarchy with _this_ command:
 
 `expr -l objc++ -O -- [[[UIWindow keyWindow] rootViewController] _printHierarchy]`
 
@@ -110,4 +110,4 @@ Finally, continue past the breakpoint to view the effect.
 
 # Conclusion
 
-Once you’ve found the constraint(s) in question, the simplest solution is usually to lower the priority slowly, running the app after each change. Hopefully these tricks will help you find your culprit, and keep you from causing physical harm to your computer.
+Once you’ve found the constraint(s) in question, the simplest solution is usually to lower the priority _slowly_, running the app after each change. Hopefully these tricks will help you find your culprit, and keep you from causing physical harm to your computer.
