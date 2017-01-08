@@ -5,7 +5,6 @@ comments: true
 share: true
 title: "Become a Runtime Autolayout Debugging Jedi"
 categories: blog
-excerpt:
 tags: [autolayout, interface builder, xcode, IBLayoutConstraints, defenestration, objective-c, swift]
 image:
   feature:
