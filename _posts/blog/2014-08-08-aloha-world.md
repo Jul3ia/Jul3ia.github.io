@@ -102,13 +102,8 @@ Finally, continue past the breakpoint to view the effect.
 > An example of the effect caused by using unsafeBitCast to find an offending IB element:
 
 <figure>
-	<a href="https://www.flickr.com/photos/146724089@N04/31366046003/in/dateposted-public/"><img src="https://c4.staticflickr.com/1/599/31366046003_396e8cafa3_b.jpg" alt="image"></a>
-	<figcaption>Before using unsafeBitCast</figcaption>
-</figure>
-
-<figure>
-	<a href="https://www.flickr.com/photos/146724089@N04/31366045763/in/dateposted-public/"><img src="https://c4.staticflickr.com/1/520/31366045763_3676eb8f98_b.jpg" alt="image"></a>
-	<figcaption>After using unsafeBitCast</figcaption>
+	<a href="https://www.flickr.com/photos/146724089@N04/32138391696/in/dateposted-public/"><img src="https://c1.staticflickr.com/1/472/32138391696_f4a7c40063_b.jpg" alt="image"></a>
+	<figcaption>Before and after using unsafeBitCast</figcaption>
 </figure>
 
 # Conclusion
