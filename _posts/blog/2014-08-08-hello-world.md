@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Hello World"
+comments: true
+title: "Aloha World"
 modified:
 categories: blog
 excerpt:
