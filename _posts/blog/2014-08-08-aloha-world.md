@@ -1,10 +1,11 @@
 ---
 layout: post
 comments: true
+share: true
 title: "Become a Runtime Constraint Issue Debugging Jedi"
 categories: blog
 excerpt:
-tags: [autolayout, interface builder, xcode, IBLayoutConstraint, defenestration, objective-c, swift]
+tags: [autolayout, interface builder, xcode, IBLayoutConstraints, defenestration, objective-c, swift]
 image:
   feature:
 date: 2017-01-07T18:00:00-04:00
