@@ -13,7 +13,7 @@ Jul3ia is an iOS developer in Seattle, Washington who started her journey in cod
 
 ## Some interesting facts about Jul3ia:
 
-* The 3 is silent, but also legal. She was named Julia, after John Lennon’s mother, but legally changed it at 18 after a long-standing joke she had started in her early teens. In the following years, she has thoroughly uncovered the meaning of being a true _edge case_ in life. Plus sides include being the easiest person on Earth to Google. Down sides include suffering mercilessly at the DMV.
+* The 3 is silent, but also legal. She was named Julia, after John Lennon’s mother, but legally changed it at 18 after a long-standing joke she had started in her early teens. In the years since, she has thoroughly uncovered the meaning of being a true _edge case_ in life. Plus sides include being the single easiest person on Earth to Google. Down sides include suffering mercilessly at the DMV.
 * Though she spends most of her time in Xcode, she enjoys tinkering in Unreal whenever possible
 * She first learned how to hook up A/V components at the age of 4, when she and her brother had shared custody of a Nintendo Entertainment System
 * She still loves to play NES
