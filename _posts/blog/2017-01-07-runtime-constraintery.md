@@ -4,6 +4,7 @@ author: jul3ia
 comments: true
 share: true
 title: "Become a Runtime Autolayout Debugging Jedi"
+excerpt: "Or how to keep from throwing yourself out a window over runtime constraint issues with just a few easy Xcode debugger console commands"
 categories: blog
 tags: [autolayout, interface builder, xcode, IBLayoutConstraints, defenestration, objective-c, swift]
 date: 2017-01-07T18:00:00-04:00
