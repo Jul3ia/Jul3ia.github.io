@@ -6,8 +6,6 @@ share: true
 title: "Become a Runtime Autolayout Debugging Jedi"
 categories: blog
 tags: [autolayout, interface builder, xcode, IBLayoutConstraints, defenestration, objective-c, swift]
-image:
-  feature:
 date: 2017-01-07T18:00:00-04:00
 ---
 > Or how to keep from throwing yourself out a window over runtime constraint issues with just a few easy Xcode debugger console commands
@@ -43,6 +41,14 @@ Runtime constraint issues are marked with the keyword [LayoutConstraints], and c
 # 1. Set a symbolic breakpoint for UIViewAlertForUnsatisfiableConstraints
 
 Apple helps you out by supplying your first step right in the body of the runtime constraint error message. Set a symbolic breakpoint, like so:
+
+![Step One]({{ site.url }}/images/symbolicBreakpoint1.jpg)
+{: .center}
+In the breakpoint panel in Xcode, add a new symbolic breakpoint.
+
+![Step Two]({{ site.url }}/images/symbolicBreakpoint2.jpg)
+{: .center}
+Assign the symbol as UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.
 
 <figure>
 	<a href="https://www.flickr.com/photos/146724089@N04/32137434536/in/dateposted-public/"><img src="https://c1.staticflickr.com/1/637/32137434536_cb689f85e8_b.jpg" alt="image"></a>
