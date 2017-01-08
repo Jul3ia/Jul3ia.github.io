@@ -47,7 +47,7 @@ Apple helps you out by supplying your first step right in the body of the error 
 ![Step One]({{ site.url }}/images/symbolicBreakpoint1.jpg)
 {: .center}
 
-> Assign the symbol as UIViewAlertForUnsatisfiableConstraints, and supply it with an attention-grabbing log message.
+> Assign the symbol as 'UIViewAlertForUnsatisfiableConstraints', and supply it with an attention-grabbing log message.
 
 ![Step Two]({{ site.url }}/images/symbolicBreakpoint2.jpg)
 {: .center}
