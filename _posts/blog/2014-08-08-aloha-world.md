@@ -4,17 +4,16 @@ comments: true
 title: "Become a Runtime Constraint Issue Debugging Jedi"
 categories: blog
 excerpt:
-tags: [runtime, constraint, autolayout, interface builder, xcode, IBLayoutConstraint]
+tags: [runtime, constraint, autolayout, interface builder, xcode, IBLayoutConstraint, defenestration]
 image:
-  feature: help.jpg
+  feature:
 date: 2017-01-07T18:00:00-04:00
-modified: 2017-01-07T18:00:00-04:00
 ---
-# or, How to keep from throwing yourself out a window over Autolayout issues with just a few easy Xcode debugger console commands
+> or, How to keep from throwing yourself out a window over Autolayout issues with just a few easy Xcode debugger console commands
 
 Autolayout issues can be a pain. We’ve all seen those familiar error messages at runtime in our Xcode console, but hesitate to change anything in our storyboards or nibs, because seriously, who wants to open that can of worms? Well, here are a few simple tricks that might ease your reluctance to open those dreaded files, and hopefully also save you from digging endlessly through the IBHaystack to find the offending element.
 
-> Take a look at this typical example of a runtime constraint issue in Xcode:
+Take a look at this typical example of a runtime constraint issue in Xcode:
 
 ```
 2017-01-02 21:44:51.862311 RuntimeConstraintery[8234:130556] [LayoutConstraints] Unable to simultaneously satisfy constraints.
@@ -44,14 +43,15 @@ Runtime constraint issues are marked with the keyword [LayoutConstraints], and c
 
 Apple helps you out by supplying your first step right in the body of the runtime constraint error message. Set a symbolic breakpoint, like so:
 
-```html
-<figure class="half">
-	<img src="/images/symbolicBreakpoint_UIViewAlertForUnsatisfiableConstraints.jpg" alt="image">
-  <figcaption>In the breakpoint panel in Xcode, add a new symbolic breakpoint.</figcaption>
-	<img src="/images/symbolicBreakpoint_UIViewAlertForUnsatisfiableConstraints2.jpg" alt="image">
-	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</figcaption>
+<figure>
+	<a href="https://www.flickr.com/photos/146724089@N04/32137434536/in/dateposted-public/"><img src="https://c1.staticflickr.com/1/637/32137434536_cb689f85e8_b.jpg" alt="image"></a>
+	<figcaption>In the breakpoint panel in Xcode, add a new symbolic breakpoint.</a>.</figcaption>
 </figure>
-```
+
+<figure>
+	<a href="https://www.flickr.com/photos/146724089@N04/32137434396/in/dateposted-public/"><img src="https://c5.staticflickr.com/1/631/32137434396_02e8bb8529_b.jpg" alt="image"></a>
+	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</a>.</figcaption>
+</figure>
 
 # 1.	When you hit the breakpoint, trace the autolayout stack
 
@@ -70,12 +70,19 @@ Compare your results to the original error message you pasted in your text edito
 Using memory addresses supplied in step 2, you can get all the information you need about the element(s) in question, using these console commands:
 
 `po MEMORY ADDRESS`
+
 > _(prints a basic description of the element)_
+
 > - OR -
+
 `po [MEMORY ADDRESS recursiveDescription]`
+
 _(prints a slightly more in-depth description of the element)_
+
 > - OR -
+
 `po [[MEMORY ADDRESS superview] recursiveDescription]`
+
 _(prints WAY more about the element than you’ll ever needed to know)_
 
 # 3.	Get some visual feedback
