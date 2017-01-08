@@ -3,10 +3,6 @@ layout: page
 title: Ship's Log
 excerpt: "An archive of blog posts sorted by date."
 search_omit: true
-image:
-  feature: eureka.jpg
-  credit: Jul3ia Richard
-  creditlink: https://www.instagram.com/jul3ia/
 ---
 
 <ul class="post-list">
