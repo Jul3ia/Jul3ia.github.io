@@ -4,7 +4,7 @@ comments: true
 title: "Become a Runtime Constraint Issue Debugging Jedi"
 categories: blog
 excerpt:
-tags: [runtime, constraint, autolayout, interface builder, xcode, IBLayoutConstraint, defenestration, objective-c, swift, view hierarchy, autolayout trace, UIKit, jedi]
+tags: [autolayout, interface builder, xcode, IBLayoutConstraint, defenestration, objective-c, swift]
 image:
   feature:
 date: 2017-01-07T18:00:00-04:00
