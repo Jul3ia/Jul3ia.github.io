@@ -40,15 +40,17 @@ Runtime constraint issues are marked with the keyword [LayoutConstraints], and c
 
 # 1. Set a symbolic breakpoint for UIViewAlertForUnsatisfiableConstraints
 
-Apple helps you out by supplying your first step right in the body of the runtime constraint error message. Set a symbolic breakpoint, like so:
+Apple helps you out by supplying your first step right in the body of the error message. Set a symbolic breakpoint, like so:
+
+> In the breakpoint panel in Xcode, add a new symbolic breakpoint.
 
 ![Step One]({{ site.url }}/images/symbolicBreakpoint1.jpg)
 {: .center}
-> In the breakpoint panel in Xcode, add a new symbolic breakpoint.
+
+> Assign the symbol as UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.
 
 ![Step Two]({{ site.url }}/images/symbolicBreakpoint2.jpg)
 {: .center}
-> Assign the symbol as UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.
 
 # 2.	When you hit the breakpoint, trace the autolayout stack
 
