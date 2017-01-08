@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Jul3ia
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+excerpt: "One coder's journey to iOS Jedi mastery"
 modified: 2017-01-07T19:44:38.564948-04:00
 image:
   feature: eureka.jpg
