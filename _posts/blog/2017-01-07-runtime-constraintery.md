@@ -36,7 +36,7 @@ Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch th
 The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
 ```
 
-Runtime constraint issues are marked with the keyword [LayoutConstraints], and can give you lots of useful information if you read between the lines. For instance, from the above example we know we are most likely looking for a UIView with a height constant of 150. However, if that doesn’t exactly narrow it down for you, copy and paste your error into a text editor for reference, and continue to step 1.
+Runtime constraint issues are marked with the keyword [LayoutConstraints], and can give you lots of useful information if you read [between the lines](https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/DebuggingTricksandTips.html). For instance, from the above example we know we are most likely looking for a UIView with a height constant of 150. However, if that doesn’t exactly narrow it down for you, copy and paste your error into a text editor for reference, and continue to step 1.
 
 # 1. Set a symbolic breakpoint for UIViewAlertForUnsatisfiableConstraints
 
