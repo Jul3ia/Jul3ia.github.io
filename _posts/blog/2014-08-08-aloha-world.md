@@ -53,7 +53,7 @@ Apple helps you out by supplying your first step right in the body of the runtim
 	<figcaption>Assign the symbol UIViewAlertForUnsatisfiableConstraints, and supply an attention-grabbing log message.</figcaption>
 </figure>
 
-# 1.	When you hit the breakpoint, trace the autolayout stack
+# 2.	When you hit the breakpoint, trace the autolayout stack
 
 Paste the following command into your Xcode console:
 
@@ -69,23 +69,23 @@ Compare your results to the original error message you pasted in your text edito
 
 Using memory addresses supplied in step 2, you can get all the information you need about the element(s) in question, using these console commands:
 
-`po MEMORY ADDRESS`
+`po MEMORY_ADDRESS`
 
 _(prints a basic description of the element)_
 
  - OR...
 
-`po [MEMORY ADDRESS recursiveDescription]`
+`po [MEMORY_ADDRESS recursiveDescription]`
 
 _(prints a slightly more in-depth description of the element)_
 
  - OR...
 
-`po [[MEMORY ADDRESS superview] recursiveDescription]`
+`po [[MEMORY_ADDRESS superview] recursiveDescription]`
 
 _(prints WAY more about the element than you’ll ever needed to know)_
 
-# 3.	Get some visual feedback
+# 4.	Get some visual feedback
 
 If you still haven’t found your bad element (hey, it happens), there’s one more thing that might help: embarrass it.
 
@@ -95,7 +95,21 @@ First, import UIKit into the debugger console so you can access the UIColor libr
 
 Then, turn the guilty element red with embarrassment:
 
-`expr -l Swift -- unsafeBitCast(MEMORY ADDRESS, to: UIView.self).backgroundColor = UIColor.red`
+`expr -l Swift -- unsafeBitCast(MEMORY_ADDRESS, to: UIView.self).backgroundColor = UIColor.red`
+
+Finally, continue past the breakpoint to view the effect.
+
+> An example of the effect caused by using unsafeBitCast to find an offending IB element:
+
+<figure>
+	<a href="https://www.flickr.com/photos/146724089@N04/31366046003/in/dateposted-public/"><img src="https://c4.staticflickr.com/1/599/31366046003_396e8cafa3_b.jpg" alt="image"></a>
+	<figcaption>Before using unsafeBitCast</figcaption>
+</figure>
+
+<figure>
+	<a href="https://www.flickr.com/photos/146724089@N04/31366045763/in/dateposted-public/"><img src="https://c4.staticflickr.com/1/520/31366045763_3676eb8f98_b.jpg" alt="image"></a>
+	<figcaption>After using unsafeBitCast</figcaption>
+</figure>
 
 # Conclusion
 
