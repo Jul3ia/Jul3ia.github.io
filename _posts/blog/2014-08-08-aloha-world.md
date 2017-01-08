@@ -99,7 +99,7 @@ Then, turn the guilty element red with embarrassment:
 
 Finally, continue past the breakpoint to view the effect.
 
-> An example of the effect caused by using unsafeBitCast to find an offending IB element:
+> An example of the resulting effect:
 
 <figure>
 	<a href="https://www.flickr.com/photos/146724089@N04/32138391696/in/dateposted-public/"><img src="https://c1.staticflickr.com/1/472/32138391696_f4a7c40063_b.jpg" alt="image"></a>
