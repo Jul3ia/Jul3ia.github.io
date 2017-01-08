@@ -98,7 +98,7 @@ Then, turn the guilty element red with embarrassment:
 
 Finally, continue past the breakpoint to view the effect.
 
-> An example of the resulting effect before and after using unsafeBitCast:
+> An example of the resulting effect:
 
 ![unsafeBitCast]({{ site.url }}/images/unsafeBitCast.jpg)
 {: .center}
